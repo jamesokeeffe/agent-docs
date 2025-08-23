@@ -55,8 +55,7 @@
             <scope>runtime</scope>
         </dependency>
         
-        <!-- Phase 2+ Dependencies (commented for now) -->
-        <!--
+        <!-- Phase 2+ Dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -86,7 +85,30 @@
             <version>0.12.3</version>
             <scope>runtime</scope>
         </dependency>
-        -->
+        
+        <!-- WebSocket for MCP Protocol -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+        
+        <!-- HTTP Client for AI API Integration -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        
+        <!-- Message Queue for Phase 3 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        
+        <!-- Caching -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
         
         <!-- Monitoring and Metrics -->
         <dependency>
